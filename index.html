@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <title>Hello, world!</title>
+
+    <style>
+      #awards th,
+      #awards td {
+        padding: 0.2rem;
+      }
+
+      #awards th {
+        font-size: 80%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="jumbotron jumbotron-fluid pl-0 pr-0">
+      <h1 class="text-center display-4 w-100">DIEGO ESTRADA TALAMANTES</h1>
+      <div class="container">
+        <div
+          class="row text-center mb-3 border-bottom pb-2 border-color-secondary"
+        >
+          <span class="col-4 text-danger"><i>devdiegoest@gmail.com</i></span>
+          <span class="col-4 text-success"><i>+52 (612) 151 9272</i></span>
+          <span class="col-4 text-primary"><i>/EstradaDiego99</i></span>
+        </div>
+
+        <table class="row">
+          <tbody class="w-100">
+            <tr class="row">
+              <td class="col-8 text-primary text-center">
+                <h5 class="m-0">B.S. in Computer Science and Technology</h5>
+              </td>
+              <td class="col-4 text-right"><i>(Graduation June 2022)</i></td>
+            </tr>
+            <tr class="row">
+              <td class="col-8 text-info text-center">
+                <h5 class="m-0">Tecnológico de Monterrey, Campus Monterrey</h5>
+              </td>
+              <td class="col-4 text-right">
+                <span class="badge badge-info">GPA: 93/100</span>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div class="progress row bg-secondary mt-2">
+          <div
+            class="progress-bar progress-bar-striped progress-bar-animated"
+            role="progressbar"
+            style="width: 85%"
+            aria-valuenow="100"
+            aria-valuemin="0"
+            aria-valuemax="100"
+          ></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <section class="row mt-4">
+        <div class="col-8">
+          <h2><u>Work Experience</u></h2>
+          <div>
+            <div>
+              <strong>Google</strong>
+              <small>[ Summer 2019, Summer 2020 ]</small>
+              <small> - Software Engineer Intern</small>
+            </div>
+            <ul>
+              <li>Angular components implementation for visual Debug Tool.</li>
+              <li>
+                Data analysis insights uncovered using Google SQL and Python.
+              </li>
+              <li>
+                Parallel C++ pipeline implementation, BorgCron job constant
+                serving and Angular + TypeScript front-end visualization.
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <div>
+              <strong>moneypool</strong>
+              <small>[ Feb 2019 – Nov 2019 ]</small>
+              <small> - Software Engineer Junior Dev</small>
+            </div>
+            <ul>
+              <li>
+                Front-end maintenance of Ruby on Rails app. StimulusJS
+                implementation.
+              </li>
+              <li>
+                Lowered ~1500ms on page response time as measured by Google
+                Lighthouse by implementing efficient scripts deferring.
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <div>
+              <strong>Ecaresoft</strong>
+              <small>[ Feb 2020 – Dec 2020 ]</small>
+              <small> - Software Developer Intern</small>
+            </div>
+            <ul>
+              <li>
+                MongoDB implementation for NodeJS back-end API managing CRUD
+                operations. Bcrypt Token authentication and Jest unit tests
+                inclusion.
+              </li>
+              <li>
+                EmberJS visualization for API internal management and operation.
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-4">
+          <h2><u>Technologies</u></h2>
+
+          <div class="card border-0">
+            <div class="card-body p-2">
+              <h5 class="card-title">3 years</h5>
+              <p class="card-text">
+                Java, Android Studio, HTML, CSS, JavaScript
+              </p>
+            </div>
+          </div>
+
+          <div class="card border-0">
+            <div class="card-body p-2">
+              <h5 class="card-title">2 years</h5>
+              <p class="card-text">
+                Firebase, C++, ReactJS, Ruby on Rails, Python
+              </p>
+            </div>
+          </div>
+
+          <div class="card border-0">
+            <div class="card-body p-2">
+              <h5 class="card-title">1 year</h5>
+              <p class="card-text">
+                Angular, TypeScript, PostgreSQL, EmberJS, NodeJS, MongoDB
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="row mt-4" id="accordion">
+        <h2><u>Projects</u></h2>
+
+        <div class="card w-100 mb-1">
+          <div class="card-header p-0" id="headingOne">
+            <button
+              class="btn collapsed w-100 text-left"
+              data-toggle="collapse"
+              data-target="#collapseOne"
+              aria-expanded="false"
+              aria-controls="collapseOne"
+            >
+              <span>CasasTI</span>
+              <small><strong>[ Computer Science Student Board ]</strong></small>
+              <small><i> // July 2019 – Present</i></small>
+            </button>
+          </div>
+          <div
+            id="collapseOne"
+            class="collapse"
+            aria-labelledby="headingOne"
+            data-parent="#accordion"
+          >
+            <div class="card-body">
+              Ruby on Rails full stack web development. PostgreSQL database
+              implementation for the internal event points system. Google Auth
+              login and Google Cloud Storage implementation. +200 students
+              registered with regular activity.
+            </div>
+          </div>
+        </div>
+
+        <div class="card w-100 mb-1">
+          <div class="card-header p-0" id="headingTwo">
+            <button
+              class="btn collapsed w-100 text-left"
+              data-toggle="collapse"
+              data-target="#collapseTwo"
+              aria-expanded="false"
+              aria-controls="collapseTwo"
+            >
+              <span>Breathe-In</span>
+              <small><strong>[ iGEM Tec-Monterrey ]</strong></small>
+              <small><i> // February 2019 – December 2019</i></small>
+            </button>
+          </div>
+          <div
+            id="collapseTwo"
+            class="collapse"
+            aria-labelledby="headingTwo"
+            data-parent="#accordion"
+          >
+            <div class="card-body">
+              Website wiki development for academic research in antibiotic
+              resistance. Styled using Bootstrap with heavy emphasis on
+              responsive design. Showcased in Boston, MA. as part of the 2019
+              iGEM Giant Jamboree. Awarded Gold Medal.
+            </div>
+          </div>
+        </div>
+
+        <div class="card w-100 mb-1">
+          <div class="card-header p-0" id="headingThree">
+            <button
+              class="btn collapsed w-100 text-left"
+              data-toggle="collapse"
+              data-target="#collapseThree"
+              aria-expanded="false"
+              aria-controls="collapseThree"
+            >
+              <span>Feeling News</span>
+              <small><strong>[ HackMX 2 ]</strong></small>
+              <small><i> // April 2019</i></small>
+            </button>
+          </div>
+          <div
+            id="collapseThree"
+            class="collapse"
+            aria-labelledby="headingThree"
+            data-parent="#accordion"
+          >
+            <div class="card-body">
+              Tweet analysis and impact prediction Web app using IBM Watson’s
+              Natural Language Understanding. Managed the backend connection to
+              Watson and API implementation. Awarded 2nd place on HackMX 2 IBM
+              Challenge.
+            </div>
+          </div>
+        </div>
+
+        <div class="card w-100 mb-1">
+          <div class="card-header p-0" id="headingFour">
+            <button
+              class="btn collapsed w-100 text-left"
+              data-toggle="collapse"
+              data-target="#collapseFour"
+              aria-expanded="false"
+              aria-controls="collapseFour"
+            >
+              <span>Technologies for the Community</span>
+              <small><i> // September 2018 – December 2018</i></small>
+            </button>
+          </div>
+          <div
+            id="collapseFour"
+            class="collapse"
+            aria-labelledby="headingFour"
+            data-parent="#accordion"
+          >
+            <div class="card-body">
+              Developer on the front-end of an online pedometer on Android and
+              iOS using React Native app for amputees. Project in coordination
+              with Biomechatronic MIT Laboratory.
+            </div>
+          </div>
+        </div>
+
+        <div class="card w-100 mb-1">
+          <div class="card-header p-0" id="headingFive">
+            <button
+              class="btn collapsed w-100 text-left"
+              data-toggle="collapse"
+              data-target="#collapseFive"
+              aria-expanded="false"
+              aria-controls="collapseFive"
+            >
+              <span>Grade Calculator</span>
+              <small><i> // May 2018 – December 2018</i></small>
+            </button>
+          </div>
+          <div
+            id="collapseFive"
+            class="collapse"
+            aria-labelledby="headingFive"
+            data-parent="#accordion"
+          >
+            <div class="card-body">
+              Full stack development of an Android Studio grade tracking app.
+              Gives constant academic performance feedback with calculations
+              like maximum score or current average. Use of recursive algorithms
+              to manage the operations.
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="row mt-4" id="awards">
+        <h2><u>Awards and Leadership</u></h2>
+
+        <table class="table">
+          <tbody>
+            <tr>
+              <th style="white-space: nowrap" scope="row"><i>March 2018</i></th>
+              <td>
+                <small>
+                  Best programmer in ITESM Mexico City Campus at Top Tec
+                  Programmer Oracle Cup.
+                </small>
+              </td>
+            </tr>
+            <tr>
+              <th style="white-space: nowrap" scope="row">
+                <i>Mar '20 – May '20</i>
+              </th>
+              <td>
+                <small>
+                  Hosted One Month Hack hackathon gathering +150 students and
+                  +50 projects in technology areas.
+                </small>
+              </td>
+            </tr>
+            <tr>
+              <th style="white-space: nowrap" scope="row"><i>April 2020</i></th>
+              <td>
+                <small>
+                  Outstanding Student Award by the Engineering School of ITESM,
+                  ranked top 1% by achievements.
+                </small>
+              </td>
+            </tr>
+            <tr>
+              <th style="white-space: nowrap" scope="row">
+                <i>November 2019</i>
+              </th>
+              <td>
+                <small>
+                  Gold Medal on iGEM Giant Jamboree 2019 with user friendly wiki
+                  page on biotechnology project.
+                </small>
+              </td>
+            </tr>
+            <tr>
+              <th style="white-space: nowrap" scope="row">
+                <i>Aug '19 – Dec '20</i>
+              </th>
+              <td>
+                <small>
+                  Women In Tech voluntary, teaching IT topics to young women,
+                  inspiring to pursue STEM career paths.
+                </small>
+              </td>
+            </tr>
+            <tr>
+              <th style="white-space: nowrap" scope="row"><i>May 2019</i></th>
+              <td>
+                <small>Microsoft Tuition Scholarship Award Recognition.</small>
+              </td>
+            </tr>
+            <tr>
+              <th style="white-space: nowrap" scope="row">
+                <i>Aug '16 – Nov '16</i>
+              </th>
+              <td>
+                <small>
+                  Honorific Mention, 30th Mexican Mathematics Olympiad. Olympic
+                  Math teacher Inst. Mar de Cortés.
+                </small>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </div>
+
+    <footer class="mt-5 mb-5"></footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
